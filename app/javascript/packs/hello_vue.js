@@ -63,10 +63,11 @@ var demo = new Vue({
     searchQuery: '',
     gridColumns: ['name', 'power'],
     gridData: [
-      { name: 'Chuck Norris', power: Infinity },
-      { name: 'Bruce Lee', power: 9000 },
-      { name: 'Jackie Chan', power: 7000 },
-      { name: 'Jet Li', power: 8000 }
+      { name: 'スーパーマン', power: Infinity },
+      { name: '一般男性', power: 1000 },
+      { name: '一般女性', power: 800 },
+      { name: '赤ちゃん', power: 1 },
+      { name: '老人', power: 300}
     ]
   }
 })
